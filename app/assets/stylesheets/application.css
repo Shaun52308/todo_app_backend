@@ -38,6 +38,20 @@ li{
 li:hover{
     background-color: lightgreen
 }/*
+
+h2{
+    display: inline-block;
+    vertical-align:  middle;
+    font-size: 32px;
+    margin: 20px 0px;
+}
+
+h2{
+    color: navy
+}
+body{
+    background-color: orange
+}
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
