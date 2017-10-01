@@ -1,9 +1,9 @@
-<input type="checkbox"/>
-        <h2><%= @todo.description%> <%= @todo.pomodoro_estimate %></h2>
-        <a href="#">Edit</a>
+        <input type="checkbox"/>
+        <h2><%= @todo.description %> <span> <%= @todo.pomodoro_estimate %> Pomodoros</span> </h2>
+        <a href="/todo/edit/<%= @todo.id %>">Edit</a>
         <a href="#">Delete</a>
         <a href="index.html">go back...</a>
        <img class="stacks_of_books" src="http://www.jamakehoebigger.com/wp-content/uploads/2013/02/stacks_of_books_seattle_washington_usa.jpg"></img>
       
-       
+       y
        <h3>Todo #<%= params[:id] %></h3>
